@@ -1,5 +1,8 @@
-name: End-to-End Tests
-on: [push]
+name: zju health report script
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '30 16 * * *'
 
 jobs:
   test:
