@@ -14,5 +14,6 @@ test('My first test', async t => {
         .click('.hcqbtn-primary').click(`[value="${process.env.county}"]`)
         .click('[name="sfymqjczrj"]'+noRadio)
         .click('[name="sfqrxxss"]')
-        .click('.footers > a:nth-child(1)');
+        .click('.footers > a:nth-child(1)')
+        .click('.wapcf-btn-ok');
 });
