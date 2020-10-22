@@ -1,7 +1,7 @@
 name: zju health report script
 on:
   schedule:
-    - cron:  '00 17 * * *'
+    - cron:  '10 0 * * *'
 
 jobs:
   test:
