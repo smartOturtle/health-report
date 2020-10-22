@@ -1,7 +1,7 @@
 name: zju health report script
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
+    # Beijing time 0:30
     - cron:  '30 16 * * *'
 
 jobs:
