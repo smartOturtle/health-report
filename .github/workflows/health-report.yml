@@ -2,7 +2,7 @@ name: zju health report script
 on:
   schedule:
     # Beijing time 0:30
-    - cron:  '37 16 * * *'
+    - cron:  '0 0 * * *'
 
 jobs:
   test:
