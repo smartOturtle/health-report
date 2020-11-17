@@ -1,3 +1,4 @@
 {
-    "skipJsErrors": true
+    "skipJsErrors": true,
+    "quarantineMode": true
 }
